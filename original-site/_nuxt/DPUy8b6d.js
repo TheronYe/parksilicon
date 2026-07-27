@@ -1,0 +1,1 @@
+import{_,a as e}from"./BT3Aqmaz.js";import{_ as a}from"./DlAUqK2U.js";import{o as c,c as r,b as n}from"./UyYe5-td.js";const s={};function m(i,p){const o=_,t=e;return c(),r("div",null,[n(o),n(t)])}const u=Object.assign(a(s,[["render",m]]),{__name:"MandatoryDisclaimer"});export{u as _};

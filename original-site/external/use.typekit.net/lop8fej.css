@@ -1,0 +1,49 @@
+/*
+ * The Typekit service used to deliver this font or fonts for use on websites
+ * is provided by Adobe and is subject to these Terms of Use
+ * http://www.adobe.com/products/eulas/tou_typekit. For font license
+ * information, see the list below.
+ *
+ * kudryashev-d-contrast:
+ *   - http://typekit.com/eulas/00000000000000007735e0ca
+ * kudryashev-d-contrast-sans:
+ *   - http://typekit.com/eulas/00000000000000007735e0d1
+ * kudryashev-d-excontrast:
+ *   - http://typekit.com/eulas/00000000000000007735e0ce
+ * kudryashev-d-excontrast-sans:
+ *   - http://typekit.com/eulas/00000000000000007735e0cf
+ *
+ * © 2009-2026 Adobe Systems Incorporated. All Rights Reserved.
+ */
+/*{"last_published":"2025-10-17 09:40:39 UTC"}*/
+
+@import url("https://p.typekit.net/p.css?s=1&k=lop8fej&ht=tk&f=46076.46077.46078.46079&a=323605296&app=typekit&e=css");
+
+@font-face {
+font-family:"kudryashev-d-contrast";
+src:url("https://use.typekit.net/af/b96d18/00000000000000007735e0ca/31/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff2"),url("https://use.typekit.net/af/b96d18/00000000000000007735e0ca/31/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff"),url("https://use.typekit.net/af/b96d18/00000000000000007735e0ca/31/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:400;font-stretch:normal;
+}
+
+@font-face {
+font-family:"kudryashev-d-contrast-sans";
+src:url("https://use.typekit.net/af/abf69d/00000000000000007735e0d1/31/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff2"),url("https://use.typekit.net/af/abf69d/00000000000000007735e0d1/31/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff"),url("https://use.typekit.net/af/abf69d/00000000000000007735e0d1/31/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:400;font-stretch:normal;
+}
+
+@font-face {
+font-family:"kudryashev-d-excontrast-sans";
+src:url("https://use.typekit.net/af/0fff8f/00000000000000007735e0cf/31/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&v=3") format("woff2"),url("https://use.typekit.net/af/0fff8f/00000000000000007735e0cf/31/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&v=3") format("woff"),url("https://use.typekit.net/af/0fff8f/00000000000000007735e0cf/31/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:300;font-stretch:normal;
+}
+
+@font-face {
+font-family:"kudryashev-d-excontrast";
+src:url("https://use.typekit.net/af/5842f7/00000000000000007735e0ce/31/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&v=3") format("woff2"),url("https://use.typekit.net/af/5842f7/00000000000000007735e0ce/31/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&v=3") format("woff"),url("https://use.typekit.net/af/5842f7/00000000000000007735e0ce/31/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:300;font-stretch:normal;
+}
+
+.tk-kudryashev-d-contrast { font-family: "kudryashev-d-contrast",sans-serif; }
+.tk-kudryashev-d-contrast-sans { font-family: "kudryashev-d-contrast-sans",sans-serif; }
+.tk-kudryashev-d-excontrast-sans { font-family: "kudryashev-d-excontrast-sans",sans-serif; }
+.tk-kudryashev-d-excontrast { font-family: "kudryashev-d-excontrast",sans-serif; }

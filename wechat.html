@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <title>微信联系资料 · 娜娜</title>
+  <link rel="icon" href="original-site/favicon-96x96.png">
+  <style>
+    :root{--ink:#161616;--muted:#8a8a8f;--line:#ededee;--bar:#f4f4f6;--action:#576d91;--sans:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif}
+    *{box-sizing:border-box}html,body{margin:0;min-height:100%;background:#eef0f2;color:var(--ink);font-family:var(--sans)}button{font:inherit}.phone{width:min(720px,100%);min-height:100svh;margin:auto;background:#fff;box-shadow:0 0 50px rgba(0,0,0,.08)}
+    .topbar{height:112px;display:flex;align-items:flex-end;justify-content:space-between;padding:0 28px 24px;background:#fff}.back,.more{border:0;background:none;color:#111;cursor:pointer}.back{width:38px;height:38px;position:relative}.back::before{content:"";position:absolute;left:9px;top:7px;width:19px;height:19px;border-left:3px solid;border-bottom:3px solid;transform:rotate(45deg)}.more{font-size:34px;letter-spacing:4px;line-height:1}
+    .profile{display:grid;grid-template-columns:112px 1fr;gap:28px;padding:42px 36px 58px}.avatar{width:112px;height:112px;border-radius:12px;background-image:url("assets/wechat-source.jpg");background-repeat:no-repeat;background-size:688px auto;background-position:-28px -175px;box-shadow:0 1px 4px rgba(0,0,0,.08)}.profile h1{margin:2px 0 14px;font-size:31px;line-height:1.25}.meta{margin:6px 0;color:#76767b;font-size:22px;line-height:1.55}.meta b{font-weight:400;color:#8f8f94;margin-right:10px}
+    .divider{height:14px;background:var(--bar)}.row{display:grid;grid-template-columns:150px 1fr 22px;align-items:center;min-height:118px;padding:24px 34px;border-bottom:1px solid var(--line);background:#fff}.row.tall{min-height:150px}.label{font-size:24px;font-weight:650}.value{font-size:19px;color:#333}.hint{color:#b3b3b8;line-height:1.6}.chev{width:13px;height:13px;border-right:2px solid #b4b4b7;border-top:2px solid #b4b4b7;transform:rotate(45deg)}.thumbs{display:flex;gap:7px}.thumb{width:68px;aspect-ratio:1;border-radius:2px;background:#b7c7aa}.thumb:nth-child(2){background:#c4bea7}.thumb:nth-child(3){background:#a7b9a8}.thumb:nth-child(4){background:#82929d}.video-thumbs .thumb:nth-child(1){background:#243754}.video-thumbs .thumb:nth-child(2){background:#ddd1ae}.video-thumbs .thumb:nth-child(3){background:#31425f}.video-thumbs .thumb:nth-child(4){background:#80665e}
+    .actions{background:#fff}.action{width:100%;height:102px;border:0;border-bottom:1px solid var(--line);background:#fff;color:var(--action);font-size:25px;font-weight:600;cursor:pointer}.action:hover{background:#fafafa}.action svg{width:30px;height:30px;vertical-align:-8px;margin-right:12px;fill:none;stroke:currentColor;stroke-width:2.2}.safe{height:max(90px,env(safe-area-inset-bottom));background:#f1f1f3}
+    @media(max-width:520px){.topbar{height:88px;padding:0 18px 18px}.profile{grid-template-columns:86px 1fr;gap:20px;padding:28px 22px 40px}.avatar{width:86px;height:86px;background-size:529px auto;background-position:-22px -135px}.profile h1{font-size:23px}.meta{font-size:17px}.row{grid-template-columns:105px 1fr 16px;padding:20px 22px;min-height:92px}.row.tall{min-height:124px}.label{font-size:19px}.value{font-size:16px}.thumb{width:48px}.action{height:84px;font-size:21px}}
+  </style>
+</head>
+<body>
+  <main class="phone">
+    <header class="topbar"><button class="back" type="button" onclick="history.length>1?history.back():window.close()" aria-label="返回"></button><button class="more" type="button" aria-label="更多">•••</button></header>
+    <section class="profile">
+      <div class="avatar" role="img" aria-label="娜娜的头像"></div>
+      <div><h1>娜娜（国家二级心理咨询师）🧘</h1><p class="meta"><b>微信号：</b>dount-1</p><p class="meta"><b>地区：</b>中国香港 九龙城区</p></div>
+    </section>
+    <section class="row tall"><div class="label">朋友资料</div><div class="value hint">添加朋友的备注名、电话、标签、备注、照片等，并设置朋友权限。</div><i class="chev"></i></section>
+    <div class="divider"></div>
+    <section class="row"><div class="label">朋友圈</div><div class="thumbs" aria-label="朋友圈预览"><i class="thumb"></i><i class="thumb"></i><i class="thumb"></i><i class="thumb"></i></div><i class="chev"></i></section>
+    <section class="row tall"><div class="label">视频号</div><div><div class="value" style="margin-bottom:15px">娜娜姐的每份小确幸</div><div class="thumbs video-thumbs" aria-label="视频号预览"><i class="thumb"></i><i class="thumb"></i><i class="thumb"></i><i class="thumb"></i></div></div><i class="chev"></i></section>
+    <div class="divider"></div>
+    <section class="actions">
+      <button class="action" type="button"><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M5 15c0-5.5 5-10 11.2-10S27.5 9.5 27.5 15s-5 10-11.3 10c-1.6 0-3.1-.3-4.5-.8L6 27l1.5-5C5.9 20.2 5 17.7 5 15Z"/></svg>发消息</button>
+      <button class="action" type="button"><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M7 5h6l2 6-4 3c2 4 4 6 8 8l3-4 6 2v6c0 1-1 2-2 2C14 28 4 18 4 7c0-1 1-2 3-2Z"/></svg>音视频通话</button>
+    </section>
+    <div class="safe"></div>
+  </main>
+</body>
+</html>
