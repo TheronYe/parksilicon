@@ -2,7 +2,7 @@
   'use strict';
 
   const WHATSAPP_PHONE = '85284939175';
-  const WHATSAPP_MESSAGE = '您好，我想咨询 ParkSilicon 项目。\n【来源：ParkSilicon 官网】';
+  const WHATSAPP_MESSAGE = '您好，我想登記ParkSilicon 示範單位預約。 【來源：ParkSilicon 官網】';
 
   function getWhatsAppUrl() {
     return `https://wa.me/${WHATSAPP_PHONE}?text=${encodeURIComponent(WHATSAPP_MESSAGE)}`;
